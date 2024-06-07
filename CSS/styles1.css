@@ -1,0 +1,92 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #e98d04;
+    color: #070000;
+    padding: 20px 0;
+  }
+  
+  .avatar {
+    margin-left: 0cm;
+    margin-bottom: 0cm;
+    height: 100px; /* Ajustez la hauteur selon vos besoins */
+  }
+
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #0c0101;
+    text-decoration: none;
+  }
+  
+  .section {
+    padding: 50px 0;
+  }
+  
+  .section-light {
+    background-color: #deeff3;
+    color: #0e0902;
+  }
+  
+  .section-dark {
+    background-color: #e98d04;
+    color: #0c0101;
+  }
+  
+
+  footer {
+    background-color: #e98d04;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+
+.project-link {
+    display: inline-block;
+    margin: 20px;
+    text-decoration: none;
+    color: #333;
+}
+.project-link img {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+.project-link img:hover {
+    transform: scale(1.1);
+}
+.project-link p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.carte {
+    max-width : 100%;  
+    height : auto;  /*retenir les deux lignes car formule pour image trop grande, l'ajuste au conteneur ou site web */
+}
+  
